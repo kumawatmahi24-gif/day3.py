@@ -1,0 +1,18 @@
+# Today's topic is Lambda Function in Python.
+# Imagine yoou want to double a number and add two numbers using Lambda()functions.
+
+double = lambda x:2* x # (2* x) Double the given number and double = variable holding the lambda function 
+  print(double(5)) # so, double(5) Calls the function with 5 how does it -
+                      INPUT
+                        5
+                        |
+                lambda x:2* x # multiply the number by 2
+                        |
+                       OUTPUT
+                         10
+# Suppose we have to add 5 + 2 so X=5 ,Y=2 it becomes like this.
+add = lamda x,y: x+y #  now , x receives 5. 
+                     #  and , y receives 2.
+                     #  x + y performs addition.
+# Display the result 
+  print(add(5,2))
