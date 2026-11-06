@@ -1,0 +1,13 @@
+try: # Runs the code that might cause an error.
+# Ask the user to enter a number and convert it into an integer.
+num = int(input("Enter a number:"))
+# Divide 10 by the entered number.
+result= 10/num
+# Display the result.
+print("result:",result)
+exceptZeroDivisionError: # Handles the error when we divide a number by zero.
+# show this message if the user enters 0.
+print("cannot divide by zero!")
+exceptValueError: # Handles invalid input, such as entering 'hello' instead of a number.
+# show this message if the user enters something other than a number.
+print("Invalid input.Please enter a number.")
